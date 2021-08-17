@@ -1,0 +1,17 @@
+git add . 
+git commit -m "Mensagem"
+git push -u origin master
+
+Comandos do Git
+• git config --global user.name “UserName“.
+• git config --global user.email “UserEmail“ ou
+git config --global user.password “password“.
+• Git Init.
+• git clone 
+• Git Status
+• Git add .
+• git commit -m “Identificador - mensagem"
+
+Para criar branches git branch 
+• Para listar branches git branch (ou) git branch –list
+• Para deletar branches git branch –d <Nome Branch>
