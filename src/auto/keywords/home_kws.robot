@@ -1,10 +1,10 @@
 *** Settings ***
-Documentation       Keywords relacionadas a tela Home.
+Documentation        Keywords relacionadas a tela home.
 
-Resource        ../../config/package.resource
+Resource                  ../../config/package.resource
 
 *** Keywords ***
-Dado que o cliente esteja na tela de inicial
+Dado que o cliente esteja na tela inicial da aplicação
     Abrir sessão
     Wait Until Element Is Visible       ${HOME.BOTAO_SIGNIN}
 

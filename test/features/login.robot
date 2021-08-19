@@ -13,7 +13,7 @@ Cenario: Login com sucesso
     # E => Passo complementar
     # Entao => Resultado esperado
     
-    Dado que o cliente esteja na tela de inicial
+    Dado que o cliente esteja na tela inicial da aplicação
     E acessar a tela de login
     Quando realizar login com sucesso
     Então deve visualizar a tela My Account

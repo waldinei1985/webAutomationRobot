@@ -1,15 +1,13 @@
 *** Settings ***
-Documentation       Configurações de inicialização e finalização dos testes.
-
+Documentation    Configurações de inicialização e finalização dos testes.
 
 *** Keywords ***
 Abrir sessão
-    #Abri o Browser
-    Open Browser    http://automationpractice.com/index.php     chrome
-    #Maximizar o navegador
-    Maximize Browser Window
-    #Tempo Máximo de espera
+    # Abrir o navegador.
+    Open Browser    http://automationpractice.com/index.php       chrome
     Set Selenium Timeout    60
+    # Maximizar o navegador
+    Maximize Browser Window
 
 Encerrar sessão
     Capture Page Screenshot
