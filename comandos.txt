@@ -16,3 +16,4 @@ Para criar branches git branch
 • Para listar branches git branch (ou) git branch –list
 • Para deletar branches git branch –d <Nome Branch>
 
+git ch
